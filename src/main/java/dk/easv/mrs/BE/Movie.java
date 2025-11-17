@@ -20,6 +20,10 @@ public class Movie {
         return title;
     }
 
+    /**
+     * Sets the title
+     * @param title
+     */
     public void setTitle(String title) {
         this.title = title;
     }
@@ -35,6 +39,6 @@ public class Movie {
     @Override
     public String toString()
     {
-        return id + ": " + title + " ("+year+")";
+        return id + ": " + title + " (" + year + ")";
     }
 }
